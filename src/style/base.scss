@@ -1,0 +1,34 @@
+::selection {
+  background-color: var(--select);
+}
+
+a {
+  color: var(--main);
+  text-decoration: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.card-block {
+  box-shadow: var(--el-box-shadow-light);
+  border-radius: var(--el-border-radius-base);
+  background: var(--background);
+  transition: background-color ease .3s;
+}
+
+// nprogress
+#nprogress .bar {
+  background: var(--main);
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--main), 0 0 5px var(--main);
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--main);
+  border-left-color: var(--main);
+}
